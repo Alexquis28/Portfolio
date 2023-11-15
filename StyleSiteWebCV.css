@@ -1,0 +1,310 @@
+body {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 100%;
+    background-image: url(Images/ImageFond4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 35vh; /*pour ajouster la taille de mon image d'accueil*/
+    padding-bottom: 3vh; /*pour ajouster la taille de mon image d'accueil*/
+    margin: 0;
+}
+.bannertext {
+    margin-left: 12vw;
+    font-size: 2em;
+    color: white;
+}
+.bannertext h1 {
+    margin-bottom: 0;
+}
+.bannertext p {
+    margin-top: 1vh;
+}
+.gifFlecheAccueil {
+    margin-left: 50%;
+    margin-top: 32vh; /*pour ajouster la taille de mon image d'accueil*/
+}
+.bouton {
+    background-color: transparent;
+    color: white;
+    border: 0.3vh solid white;
+    padding: 1vh 2vw;
+    display: inline-block;
+    font-size: 0.6em;
+    margin-right: 0.8vw;
+    text-decoration: none;
+    transition: border-width 50ms;
+}
+.bouton:hover {
+    border-width: 0 0 2px 0; 
+}
+a:visited {
+    color: transparent;
+}
+
+
+
+
+.barreMenuAccueil {
+    position: fixed;
+    top: -8vh;
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(255,255,255);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: top 0.5s;
+}
+.barreMenu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(255,255,255);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.nomPrenomStatut {
+    margin-left: 5vw;
+    text-align: center;
+    font-size: 1em;
+    color: black;
+}
+.nomPrenomStatut h2 {
+    margin: 0;
+}
+.nomPrenomStatut p {
+    margin: 0;
+    margin-top: 0.6vh;
+}
+nav {
+    margin-right: 5vw;
+}
+li {
+    display: inline;   
+    margin-left: 3vw;
+}
+li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+
+
+
+.presentation {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 48%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.presentation h1 {
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+.presentation h2 {
+    margin-top: 0;
+    margin-bottom: 5vh;
+    font-size: 1.5em;
+    color: rgb(27, 200, 255);
+    font-family: "Calibri";
+}
+.presentation p {
+    font-size: 1.3em;
+}
+
+
+
+
+.mainExperiences {
+    padding: 10vh 20vw 0 20vw;
+    background-color: rgb(240, 240, 240);
+}
+.experiences {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+.experiences h1 {
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.experience1 {
+    font-size: 1.5em;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2),
+                -2px -2px 4px rgba(0, 0, 0, 0.2),
+                2px -2px 4px rgba(0, 0, 0, 0.2),
+                -2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.experience1 h2{
+    text-align: center;
+}
+.experience2 {
+    font-size: 1.5em;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2),
+                -2px -2px 4px rgba(0, 0, 0, 0.2),
+                2px -2px 4px rgba(0, 0, 0, 0.2),
+                -2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.experience2 h2{
+    text-align: center;
+}
+.experience3 {
+    font-size: 1.5em;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2),
+                -2px -2px 4px rgba(0, 0, 0, 0.2),
+                2px -2px 4px rgba(0, 0, 0, 0.2),
+                -2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.experience3 h2{
+    text-align: center;
+}
+.experience4 {
+    font-size: 1.5em;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2),
+                -2px -2px 4px rgba(0, 0, 0, 0.2),
+                2px -2px 4px rgba(0, 0, 0, 0.2),
+                -2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.experience4 h2{
+    text-align: center;
+}
+.l {
+    text-align: center;
+}
+
+
+
+.mainCompetences {
+    padding: 10vh 20vw 0 20vw;
+    background-color: rgb(240, 240, 240);
+    padding-bottom: 5vh;
+}
+.competences h1 {
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.competencesList {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 2vw;
+    font-size: 1.5em;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2),
+                -2px -2px 4px rgba(0, 0, 0, 0.2),
+                2px -2px 4px rgba(0, 0, 0, 0.2),
+                -2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+.mainFormation {
+    padding: 10vh 20vw 0 20vw;
+    background-color: rgb(240, 240, 240);
+}
+.formations {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+.formations h1 {
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.formation1 {
+    padding-top: 0.1vh;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2),
+                -2px -2px 4px rgba(0, 0, 0, 0.2),
+                2px -2px 4px rgba(0, 0, 0, 0.2),
+                -2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.formation1 p {
+    padding-bottom: 1.25vh;
+}
+.formation2 {
+    padding-top: 0.1vh;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2),
+                -2px -2px 4px rgba(0, 0, 0, 0.2),
+                2px -2px 4px rgba(0, 0, 0, 0.2),
+                -2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.formation2 p {
+    padding-bottom: 1.25vh;
+}
+.formation3 {
+    padding-top: 0.1vh;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2),
+                -2px -2px 4px rgba(0, 0, 0, 0.2),
+                2px -2px 4px rgba(0, 0, 0, 0.2),
+                -2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.formation3 p {
+    padding-bottom: 1.25vh;
+}
+.formation4 {
+    padding-top: 0.1vh;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2),
+                -2px -2px 4px rgba(0, 0, 0, 0.2),
+                2px -2px 4px rgba(0, 0, 0, 0.2),
+                -2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.formation4 p {
+    padding-bottom: 1.25vh;
+}
+
+
+.CV {
+    padding-top: 15vh;
+    text-align: center;
+}
+
+.imgCV {
+    width: 1200px;
+    height: auto;
+}
+
+
+
+.footer {
+    margin-top: 5vh;
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    height: 6vh;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer img {
+    width: 35%;
+    height: auto;
+}
+.footer p {
+    margin: 0 0 0 5vw;
+}
