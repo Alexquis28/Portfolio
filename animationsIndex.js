@@ -15,3 +15,27 @@ gestionScroll();
 
 // Ajouter un gestionnaire d'événements pour le défilement
 window.addEventListener("scroll", gestionScroll);
+
+
+//--------------------------------------
+
+document.addEventListener('DOMContentLoaded', function() {
+    var presentationButton = document.querySelector('.presentation');
+    
+    presentationButton.addEventListener('click', function(event) {
+        var targetId = this.getAttribute('href').substring(1);
+        var targetElement = document.getElementById(targetId);
+
+        event.preventDefault();
+
+        if (targetElement) {
+            var targetOffset = targetElement.offsetTop;
+            var scrollOptions = {
+                top: targetOffset,
+                behavior: 'smooth'
+            };
+
+            window.scrollTo(scrollOptions);
+        }
+    });
+});
