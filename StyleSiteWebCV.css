@@ -151,7 +151,7 @@ li a {
 }
 article {
     width: 90%;
-    padding: 3vh; /*Ajuster ici l'espace entre chaque expérience (attention à vérifier l'aligmement des étoiles)*/
+    padding: 0 2vw 6vh 2vw; /*Ajuster ici l'espace entre chaque expérience (attention à vérifier l'aligmement des étoiles)*/
 }
 .ligneLogo {
     display: flex;
@@ -160,7 +160,7 @@ article {
 }
 .imageLogoExperiences {
     position: absolute;
-    margin-top: 2.4vh; /*Ajuster ici la hauteur de l'étoile pour chaque expérience*/
+    /*margin-top: 2.4vh;*/ /*Ajuster ici la hauteur de l'étoile pour chaque expérience*/
     width: 3.5em;
     height: auto;
 }
@@ -171,10 +171,8 @@ hr {
 .descriptionExp{
     padding: 1vh;
     background-color: white;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1),
-                -1px -1px 10px rgba(0, 0, 0, 0.1),
-                1px -1px 10px rgba(0, 0, 0, 0.1),
-                -1px 1px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 14px 7px rgba(0, 0, 0, 0.1);
+                
 
 }
 .date {
@@ -317,9 +315,15 @@ hr {
     height: auto;
 }
 .footer p {
-    margin: 0 0 0 5vw;
+    margin-left: 2vw;
 }
-
+.linkedin {
+    display: flex;
+    align-items: center;
+}
+.linkedin p {
+    margin-right: 0.6vw;
+}
 
 
 
